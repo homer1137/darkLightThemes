@@ -70,7 +70,7 @@ function Details({countries}) {
     if (country) {return (
       <CardImage src={country.flag} alt={'picture'}/>
     )} else {
-      return(<div>Щас вылетит птичка</div>)
+      return(<div>Wait a little bit</div>)
     }
   }
 
