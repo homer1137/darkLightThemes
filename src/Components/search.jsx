@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import { IoSearch } from "react-icons/io5";
-import { useState } from "react";
 import InputContainer from "./Style/inputContainer";
 
 const Input = styled.input.attrs({
@@ -13,10 +12,12 @@ const Input = styled.input.attrs({
   background-color:${props=>props.theme.colorsUiBase} ;
   color: ${props=>props.theme.fontColor};
   font-size: 1rem;
-  cursor: 'pointer',
+  cursor: 'pointer';
+  border-radius: 0.1rem ;
 `;
 
 export const Search = ({ search, setSearch }) => {
+ 
   return (
     <InputContainer border={"3px solid coral"}>
       <IoSearch style={{color: 'lightblue'}}/>
