@@ -15,7 +15,7 @@ const StDiv = styled.div`
   align-items: flex-start;
   width: 50%;
   height: 100%;
-  padding: 0.5rem;
+  padding: 0.6rem;
   
   @media (max-width: 767px) {
     width: 100%;
