@@ -5,8 +5,9 @@ import StyeledButton from "./Style/button";
 
 
 const Select = styled.select.attrs({})`
-  width: 250px;
+  max-width: 150px;
   padding: 0.25rem;
+
   height: 35px;
   background-color: ${(props) => props.theme.colorsUiBase};
   color: ${(props) => props.theme.fontColor};

@@ -3,6 +3,7 @@ import styled from 'styled-components'
 const Wrapper =styled.section`
     width: 100%;
     padding: 2rem 0;
+    margin: 0rem 1rem 0.4rem 0rem;
 
     display: grid;
     grid-template-columns: repeat(1, 1fr);

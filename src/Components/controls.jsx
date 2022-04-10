@@ -8,9 +8,10 @@ import CustomSelecto2 from "./CustomSelecto2";
 const Wrapper = styled.div`
   display: flex;
   flex-direction: column ;
-  align-items: flex-start;
-  padding: 2rem 0;
+  align-items: center;
+  justify-content: space-between ;
   transition-duration: 1s;
+  margin: 1rem;
   
   
 
@@ -18,7 +19,7 @@ const Wrapper = styled.div`
     flex-direction: row ;
     justify-content: space-between;
     align-items: center;
-
+    
   }
 
 `;

@@ -6,7 +6,7 @@ const Input = styled.input.attrs({
   type: "search",
   placeholder: "Search for a country...",
 })`
-  margin-left: 1rem;
+  
   border: none;
   outline: none;
   background-color:${props=>props.theme.colorsUiBase} ;

@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 const StyeledContainer = styled.label`
     padding: 1rem 1rem;
-    margin: 1rem 1rem;
+    
     display: flex;
     align-items: center;
     border-radius: var(--radii);
